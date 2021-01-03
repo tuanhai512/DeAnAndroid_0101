@@ -8,5 +8,9 @@
         android:id="@+id/setup"
         android:icon="@drawable/ic_outline_settings_24"
         android:title="Cài đặt"/>
+    <item
+        android:id="@+id/tips"
+        android:icon="@drawable/ic_outline_emoji_objects_24"
+        android:title="Mẹo nhỏ"/>
 
 </menu>

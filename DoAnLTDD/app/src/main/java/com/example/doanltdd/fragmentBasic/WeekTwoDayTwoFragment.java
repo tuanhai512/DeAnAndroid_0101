@@ -16,7 +16,6 @@ import com.example.doanltdd.R;
 import com.example.doanltdd.adapter.ContactAdapter;
 import com.example.doanltdd.controller.Detail;
 import com.example.doanltdd.fragment.AbsFragment;
-import com.example.doanltdd.fragment.ChestFragment;
 import com.example.doanltdd.model.Contact;
 
 import java.util.ArrayList;
@@ -54,8 +53,8 @@ public class WeekTwoDayTwoFragment extends Fragment {
      * @return A new instance of fragment AbsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ChestFragment newInstance(String param1, String param2) {
-        ChestFragment fragment = new ChestFragment();
+    public static com.example.doanltdd.fragmentBasic.WeekTwoDayTwoFragment newInstance(String param1, String param2) {
+        com.example.doanltdd.fragmentBasic.WeekTwoDayTwoFragment fragment = new com.example.doanltdd.fragmentBasic.WeekTwoDayTwoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -97,8 +96,8 @@ public class WeekTwoDayTwoFragment extends Fragment {
                 }
                 if (position == 1) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Kéo Cánh Tay");
-                    intent.putExtra("noidung", getString(R.string.armcissors));
+                    intent.putExtra("name", "Vỗ Tay Qua Đầu");
+                    intent.putExtra("noidung", getString(R.string.clapoverhead));
                     startActivity(intent);
                 }
                 if (position == 2) {
@@ -109,8 +108,8 @@ public class WeekTwoDayTwoFragment extends Fragment {
                 }
                 if (position == 3) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Hít Đất Xuống Dốc");
-                    intent.putExtra("noidung", getString(R.string.declinepushup));
+                    intent.putExtra("name", "Hít Đất Lên Dốc");
+                    intent.putExtra("noidung", getString(R.string.inlinepushup));
                     startActivity(intent);
                 }
                 if (position == 4) {
@@ -121,8 +120,8 @@ public class WeekTwoDayTwoFragment extends Fragment {
                 }
                 if (position == 5) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Chùng Chân Sang Ngang");
-                    intent.putExtra("noidung", getString(R.string.sidelunges));
+                    intent.putExtra("name", "Bước Chân Lên Ghế");
+                    intent.putExtra("noidung", getString(R.string.stepontochair));
                     startActivity(intent);
                 }
                 if (position == 6) {
@@ -138,15 +137,15 @@ public class WeekTwoDayTwoFragment extends Fragment {
         ArrayList<Contact> tmp = new ArrayList<>();
         tmp.add(new Contact(getString(R.string.tittlebicyclecrunch),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"abs.png")));
-        tmp.add(new Contact(getString(R.string.tittlearmcissors),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.tittleclapoverhead),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"arm.png")));
         tmp.add(new Contact(getString(R.string.tittlebuttbrigde),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"butt.png")));
-        tmp.add(new Contact(getString(R.string.titledeclinepushup),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.titleinlinepushup),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"chest.png")));
         tmp.add(new Contact(getString(R.string.titlebirddog),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"fullbody.png")));
-        tmp.add(new Contact(getString(R.string.titlesidelunges),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.titlestepontochair),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"legs.png")));
         tmp.add(new Contact(getString(R.string.titlepushupandrotation),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"back.png")));

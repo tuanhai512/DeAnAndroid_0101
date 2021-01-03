@@ -13,6 +13,27 @@
         <item>Ngày 4 </item>
         <item>Ngày 5 </item>
     </string-array>
+    <string-array name="group2">
+        <item>Ngày 1 </item>
+        <item>Ngày 2 </item>
+        <item>Ngày 3 </item>
+        <item>Ngày 4 </item>
+        <item>Ngày 5 </item>
+    </string-array>
+    <string-array name="group3">
+        <item>Ngày 1 </item>
+        <item>Ngày 2 </item>
+        <item>Ngày 3 </item>
+        <item>Ngày 4 </item>
+        <item>Ngày 5 </item>
+    </string-array>
+    <string-array name="group4">
+        <item>Ngày 1 </item>
+        <item>Ngày 2 </item>
+        <item>Ngày 3 </item>
+        <item>Ngày 4 </item>
+        <item>Ngày 5 </item>
+    </string-array>
     <string name="tittleadominalcrunch">Gập Bụng</string>
     <string name="tittlebicyclecrunch">Gập Bụng Đạp Xe</string>
     <string name="tittlecrossarmcrunch">Gập Bụng Tay Chéo</string>
@@ -213,6 +234,362 @@
         Hai mũi chân của bạn lúc này chống lên sàn, giữ hai chân thẳng, thoải mái.\n
         Siết chặt cơ bụng cùng hông và mông rồi thở đều để bạn thực hiện tư thế được lâu.\n
         Lặp lại 8 lần, 2 hiệp.
+    </string>
+    <string name="pushupandrotation">Vào chuẩn bị tự thế như hít đất cơ bản.\n
+        Hít xuống nhưng khi đẩy lên. Một tay giữ thăng bằng, nâng người và đưa tay còn lại hướng lên trần nhà.\n
+        Hạ tay xuống và làm với hướng ngược lại.\n
+        Nào các bạn cùng thử thách bản thân mùa tết với bài tập hít đất xoay chiều nào.
+        Lặp lại 8 lần, 2 hiệp.
+    </string>
+    //Med//
+    <string name="madominalcrunch">Ở tư thế nằm ngửa và với hai chân cong, giữ cho đầu và vai hơi nhô lên khỏi mặt đất.\n
+        Hai cánh tay đưa thẳng về trước song song với cơ tứ đầu..\n
+        Gồng cơ bụng, cuộn tròn và đẩy về phía trước.\n
+        Duy trì sự co thắt trong vài giây. Nghiêng cằm của bạn một chút.\n
+        Giữ cho bụng của bạn kéo vào trong toàn bộ phạm vi chuyển động.\n
+        Quay trở lại vị trí bắt đầu bằng cách thư giãn các cơ bụng.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mbicyclecrunch">Nằm ngửa, hai tay ôm nhẹ phần trên gáy, nhấc vai lên vào tư thế gập bụng.\n
+        Nhấc hai chân lên, hơi co lại, thả lỏng. Hít vào, siết chặt bụng, đá chân phải tới trước, thu đầu gối trái vào sát người.\n
+        Đồng thời đưa khuỷu tay phải lại gần gối trái bằng cách gập bên cạnh và thở ra.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mcrossarmcrunch">Bạn có thể thực hiện động tác gập bụng hiệu quả bằng cách đặt nhẹ tay lên sau cổ hoặc chống hai bên đầu của bạn.\n
+        Đẩy người xuống sàn bằng cách sử dụng lưng dưới của bạn trong khi gập cơ bụng. Thở ra và nâng vai lên khỏi mặt đất khoảng bốn inch.Khi bạn đạt đến điểm cao nhất của bài tập gập bụng, gập cơ bụng và giữ tư thế này trong một giây.\n
+        Sau khi bạn đã giữ được đỉnh của động tác gập bụng trong một giây, hãy từ từ để cơ thể trở lại vị trí ban đầu trong khi hít thở.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mflutterkick">Nằm ngửa trên sàn, như tư thế gập bụng ngực.\n
+        Nâng 2 chân lên khỏi sàn khoảng 20cm.\n
+        Bắt đầu đưa chân phải lên cao hơn, chân trái giữ im vị trí.\n
+        Hạ chân phải xuống ngang chân trái và chân trái nâng lên cao.\n
+        Liên tục thay đổi vị trí 2 chân càng nhanh càng tốt.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mclapoverhead">Đứng thẳng và hai chân cách nhau 30cm.\n
+        Nâng thanh tạ phía ra phía sau đầu với hay bàn tay cầm rộng hơn vai.\n
+        Thở ra và nâng thanh tạ lên.\n
+        Hít vào và từ từ hạ tạ thật nhẹ nhàng về vị trí cũ.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="marmcissors">Bạn cần bắt đầu bằng cách đứng thẳng và nâng cánh tay lên ngang vai trước mặt.\n
+        Duỗi hai tay sang một bên và đưa về phía trước, tay phải chồng lên tay trái.\n
+        Điều này giống như một cái kéo đang mở.\n
+        Bạn cần kéo chúng sang một bên một lần nữa và đưa chúng trở lại phía trước.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mshoulderstretch">Thư giãn vai của bạn.\n
+        Nâng một cánh tay lên cao ngang vai và vươn ngang ngực.\n
+        Kéo nhẹ cánh tay về phía bạn bằng cánh tay còn lại.\n
+        Điều này sẽ giúp bạn có được một vòng một nhẹ nhàng.\n
+        Giữ khoảng 6 giây.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mtricpesdips">Từ từ uống cong khuỷu tay xuống, hạ thấp cơ thể xuống theo chiều thẳng đứng, tránh nghiên tới trước hoặc sau.\n
+        Hạ đến khi cánh tay trên song song với sàn nhà thì dừng lại.\n
+        Dùng lực tay sau đẩy người lên vị trí ban đầu.\n
+        Chú ý là không lên thẳng tay hoàn toàn khi bắt đầu tập nhé.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mbridge">Dồn lực vào phần gót chân, đẩy mông lên cao sao cho từ đầu gối tới phần lưng trên là một đường thẳng.\n
+        Giữ lâu nhất có thể trước khi hạ người một cách từ từ xuống sàn về tư thế ban đầu.\n
+        Tập trong 4 phút, nghỉ 2 phút\n
+    </string>
+    <string name="mbuttbrigde">Dồn lực vào phần gót chân, đẩy mông lên cao sao cho từ đầu gối tới phần lưng trên là một đường thẳng.\n
+        Bạn cũng có thể đẩy mông lên cao nhất có thể, giữ khoảng 10 giây trước khi hạ người một cách từ từ xuống sàn về tư thế ban đầu.\n
+        Tập trong 4 phút, nghỉ 2 phút
+    </string>
+    <string name="mfirehydrant">Quỳ gối trên thảm, chống hai tay xuống đất(vuông góc với thân, hai tay rộng bằng vai).\n
+        Đầu giữ thẳng với người, mắt nhìn xuống sàn. Hai gối rộng bằng hông.\n
+        Thở ra, nâng gối trái sang bên trái cho tới khi  nào chân trái song song với sàn là được. Giữ ở vị trí đó 1s.\n
+        Từ từ hạ xuống vị trí ban đầu, kết hợp hít vào.\n
+        Thực hiện khoảng 10-12 lần thì đổi sang chân còn lại.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mglutterkickback">Giữ lưng duỗi thẳng, căng cứng cơ bụng và mắt nhìn về phía trước.\n
+        Nhấc gối chân phải lên cho tới khi nào đùi sau thẳng hàng với lưng, gối vẫn cong 90 độ.\n
+        Thở ra. Dừng lại và căng cứng cơ mông ở đỉnh động tác, sau đó từ từ hít vào và hạ chân xuống vị trí ban đầu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="minandout">Ngồi xuống đất.\n
+        Đặt tay của bạn cạnh mông để ổn định hơn.\n
+        Các bàn chân được với nhau.\n
+        Uốn cong chân một chút và nâng cao chúng lên một chút.\n
+        Ngả phần thân trên ra sau một chút.\n
+        Lưng luôn thẳng.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mdeclinepushup">Chống tay xuống sàn, 2 tay nằm dưới 2 vai, 2 chân đặt trên ghế hoặc 1 bục cao, thân người duỗi thẳng.\n
+        Hít vào, đồng thời hạ người xuống đến khi ngực sắp chạm sàn.\n
+        Đẩy người lên về vị trí ban đầu, siết cơ ngực đồng thời thở mạnh\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="minlinepushup">Chống 2 tay thẳng xuống cạnh ghế, bục gỗ cao, hai tay hơi rộng hơn vai.\n
+        Duỗi thẳng hai chân ra sau, hai tay thẳng vuông góc với thân người. Thân người tạo thành 1 đường thẳng.\n
+        Hít vào, khuỵu tay, hạ ngực xuống cạnh ghế.\n
+        Đẩy người thẳng lại vị trí ban đầu, thở mạnh ra.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mkneepushup">Quỳ hai gối xuống sàn, hai tay duỗi thẳng chống về phía trước, hai bàn tay ở phía dưới vai và hai cẳng chân bắt chéo về phía sau.\n
+        Giữ cho lưng thẳng, thân trên gồng cứng và đây là vị trí bắt đầu của bài tập Knee Push Ups.\n
+        Hít vào và bắt đầu uốn cong khuỷu tay để hạ thân người cho đến khi ngực gần chạm sàn.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="monelegpushup">Bắt đầu ở tư thế plank cao của bạn. Tay của bạn phải đặt trực tiếp dưới vai, hai chân cách nhau khoảng cách bằng hông.\n
+        Nhẹ nhàng nhấc một chân lên không trung, đảm bảo rằng bạn không mở hông ra.\n
+        Lý tưởng nhất là bạn muốn giữ cho vai và hông của mình vuông góc với mặt đất.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mpushup">Nằm xuống bằng bốn chân, đặt hai tay hơi rộng hơn vai.\n
+        Duỗi thẳng tay và chân.\n
+        Hạ thấp người cho đến khi ngực gần chạm sàn.\n
+        Tạm dừng, sau đó đẩy người lên trở lại.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="malternatingtochessstretch">Nằm ngửa, đầu gối cong và bàn chân đặt trên sàn.\n
+        Đưa một đầu gối lên ngực, giữ cho bàn chân còn lại nằm phẳng trên sàn.\n
+        Thư giãn và hạ thấp đầu gối về vị trí bắt đầu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mbirddog">Bắt đầu bằng cách trụ đầu gối và tay chống lên sàn.\n
+        Cánh tay nằm thẳng vuông góc với vai. Đầu gối nằm thẳng vuông góc với hông.\n
+        Gồng bụng bằng cách cố gắng đưa lồng ngực về phía rốn. Sau đó, bắt đầu nhấc 1 chân lên khỏi sàn song song với đất rồi thu về chỗ cũ.\n
+        Toàn bộ thời gian nhấc lên và hạ xuống nên kéo dài trong khoảng 6-8 giấy.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mburpees">Đứng thẳng, hạ người ngồi xổm xuống, chống tay xuống sàn.\n
+        Bật nhảy đưa chân về phía sau tạo tư thế hít đất.\n
+        Hít đất 1 lần.\n
+        Nhảy chân về giữa 2 tay.\n
+        Bật nhảy lên cao, nâng đùi lên, kéo cùi chỏ chạm gối.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mdumbbeljumpingsquat">Mỗi tay cầm một quả tạ và để chúng treo ở bên cạnh bạn.\n
+        Ngồi xổm xuống khoảng một phần tư quãng đường, rồi nhảy lên cao hết mức có thể.\n
+        Tiếp đất nhẹ nhàng trên đôi chân của bạn, và sau đó chuyển trực tiếp vào lần lặp lại tiếp theo.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mmjumpingjacks">Đứng thẳng, 2 chân khép, 2 tay đặt dọc thân người.\n
+        Bật nhảy lên cao, dang rộng 2 chân, 2 tay dang rộng hướng lên trên.\n
+        Bật nhảy và nâng cao 1 bên đùi lên song song với sàn, 2 tay đưa xuống chạm nhau ở dưới đùi.\n
+        Lặp lại tương tự cho bên kia.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="msidelunges">Bạn bắt đầu bài tập với tư thế Squat cơ bản và dang rộng 2 chân với khoảng cách vừa phải để giữ thăng bằng tốt nhất.\n
+        Duỗi dài chân phải ra bên, để mũi chân hướng thẳng hàng với đầu gối; chân trái giữ vững làm trụ và 2 tay để trước ngực.\n
+        Từ từ hạ hông xuống, hít vào và khi vị trí hông xuống thấp nhất thì bạn giữ 2-3 giây.\n
+        Thở ra và đưa cơ thể trở về vị trí ban đầu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mstepontochair">Đặt một chân đặt trên ghế sao cho phần bắp đùi và đầu gối vuông góc nhau, chân còn lại đứng thẳng trên mặt đất.\n
+        Dồn lực vào chân đặt trên ghế và chân còn lại dùng lực đứng lên ghế, đồng thời co chân làm trụ lên sao cho gối chạm vào phần ngực.\n
+        Hít vào khi nâng chân lên và thở ra khi quay về vị trí ban đầu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mrunonthewall">Đứng xa bức tường khoảng 1m, một chân đặt lên tường và một chân làm trụ.\n
+        Thực hiện động tác bằng cách lấy tay ở phần chân trên bức tường chạm vào mũi chân của phần chân trụ ở dưới.\n
+        Thực hiện 30 giây và đổi bên cho chân còn lại.
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="msitwall">Đứng dựa vào tường, tay duỗi thẳng, toàn thân ép sát vào tường.\n
+        Đưa chân về phía trước khoảng 0,5m, hai chân mở rộng tầm 20cm.\n
+        Từ từ hạ thấp trọng tâm, điều chỉnh tư thế sao cho đùi và chân tạo thành góc vuông.\n
+        Giữ tư thế trong vòng 20-30 giây. Khi đã tập quen, bạn có thể nâng cao lên mức 60 giây.\n
+        Đứng thẳng người trở về tư thế ban đầu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mlongarmcrunch">Nằm phẳng trên mặt đất, tay thẳng phía sau đầu và chân duỗi thẳng.\n
+        Đây là vị trí bắt đầu của bài tập.\n
+        Trong khi thở ra, co eo đồng thời nâng chân và tay để tạo hình chữ V.\n
+        Hít vào, hạ tay và chân về vị trí bắt đầu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mstraightarmplank">Hạ người, đưa hai bàn tay chống xuống sàn, rồi gập khuỷu tay, hai tay mở rộng bằng vai, 2 củ chỏ nằm dưới 2 vai theo phương thẳng đứng.\n
+        Hai mũi chân của bạn lúc này chống lên sàn, giữ hai chân thẳng, thoải mái.\n
+        Siết chặt cơ bụng cùng hông và mông rồi thở đều để bạn thực hiện tư thế được lâu.\n
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    <string name="mpushupandrotation">Vào chuẩn bị tự thế như hít đất cơ bản.\n
+        Hít xuống nhưng khi đẩy lên. Một tay giữ thăng bằng, nâng người và đưa tay còn lại hướng lên trần nhà.\n
+        Hạ tay xuống và làm với hướng ngược lại.\n
+        Nào các bạn cùng thử thách bản thân mùa tết với bài tập hít đất xoay chiều nào.
+        Lặp lại 10 lần, 3 hiệp.
+    </string>
+    //Hard//
+    <string name="hadominalcrunch">Ở tư thế nằm ngửa và với hai chân cong, giữ cho đầu và vai hơi nhô lên khỏi mặt đất.\n
+        Hai cánh tay đưa thẳng về trước song song với cơ tứ đầu..\n
+        Gồng cơ bụng, cuộn tròn và đẩy về phía trước.\n
+        Duy trì sự co thắt trong vài giây. Nghiêng cằm của bạn một chút.\n
+        Giữ cho bụng của bạn kéo vào trong toàn bộ phạm vi chuyển động.\n
+        Quay trở lại vị trí bắt đầu bằng cách thư giãn các cơ bụng.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hbicyclecrunch">Nằm ngửa, hai tay ôm nhẹ phần trên gáy, nhấc vai lên vào tư thế gập bụng.\n
+        Nhấc hai chân lên, hơi co lại, thả lỏng. Hít vào, siết chặt bụng, đá chân phải tới trước, thu đầu gối trái vào sát người.\n
+        Đồng thời đưa khuỷu tay phải lại gần gối trái bằng cách gập bên cạnh và thở ra.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hcrossarmcrunch">Bạn có thể thực hiện động tác gập bụng hiệu quả bằng cách đặt nhẹ tay lên sau cổ hoặc chống hai bên đầu của bạn.\n
+        Đẩy người xuống sàn bằng cách sử dụng lưng dưới của bạn trong khi gập cơ bụng. Thở ra và nâng vai lên khỏi mặt đất khoảng bốn inch.Khi bạn đạt đến điểm cao nhất của bài tập gập bụng, gập cơ bụng và giữ tư thế này trong một giây.\n
+        Sau khi bạn đã giữ được đỉnh của động tác gập bụng trong một giây, hãy từ từ để cơ thể trở lại vị trí ban đầu trong khi hít thở.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hflutterkick">Nằm ngửa trên sàn, như tư thế gập bụng ngực.\n
+        Nâng 2 chân lên khỏi sàn khoảng 20cm.\n
+        Bắt đầu đưa chân phải lên cao hơn, chân trái giữ im vị trí.\n
+        Hạ chân phải xuống ngang chân trái và chân trái nâng lên cao.\n
+        Liên tục thay đổi vị trí 2 chân càng nhanh càng tốt.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hclapoverhead">Đứng thẳng và hai chân cách nhau 30cm.\n
+        Nâng thanh tạ phía ra phía sau đầu với hay bàn tay cầm rộng hơn vai.\n
+        Thở ra và nâng thanh tạ lên.\n
+        Hít vào và từ từ hạ tạ thật nhẹ nhàng về vị trí cũ.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="harmcissors">Bạn cần bắt đầu bằng cách đứng thẳng và nâng cánh tay lên ngang vai trước mặt.\n
+        Duỗi hai tay sang một bên và đưa về phía trước, tay phải chồng lên tay trái.\n
+        Điều này giống như một cái kéo đang mở.\n
+        Bạn cần kéo chúng sang một bên một lần nữa và đưa chúng trở lại phía trước.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hshoulderstretch">Thư giãn vai của bạn.\n
+        Nâng một cánh tay lên cao ngang vai và vươn ngang ngực.\n
+        Kéo nhẹ cánh tay về phía bạn bằng cánh tay còn lại.\n
+        Điều này sẽ giúp bạn có được một vòng một nhẹ nhàng.\n
+        Giữ khoảng 6 giây.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="htricpesdips">Từ từ uống cong khuỷu tay xuống, hạ thấp cơ thể xuống theo chiều thẳng đứng, tránh nghiên tới trước hoặc sau.\n
+        Hạ đến khi cánh tay trên song song với sàn nhà thì dừng lại.\n
+        Dùng lực tay sau đẩy người lên vị trí ban đầu.\n
+        Chú ý là không lên thẳng tay hoàn toàn khi bắt đầu tập nhé.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hbridge">Dồn lực vào phần gót chân, đẩy mông lên cao sao cho từ đầu gối tới phần lưng trên là một đường thẳng.\n
+        Giữ lâu nhất có thể trước khi hạ người một cách từ từ xuống sàn về tư thế ban đầu.\n
+        Tập trong 5 phút, nghỉ 2 phút\n
+    </string>
+    <string name="hbuttbrigde">Dồn lực vào phần gót chân, đẩy mông lên cao sao cho từ đầu gối tới phần lưng trên là một đường thẳng.\n
+        Bạn cũng có thể đẩy mông lên cao nhất có thể, giữ khoảng 10 giây trước khi hạ người một cách từ từ xuống sàn về tư thế ban đầu.\n
+        Tập trong 5 phút, nghỉ 2 phút
+    </string>
+    <string name="hfirehydrant">Quỳ gối trên thảm, chống hai tay xuống đất(vuông góc với thân, hai tay rộng bằng vai).\n
+        Đầu giữ thẳng với người, mắt nhìn xuống sàn. Hai gối rộng bằng hông.\n
+        Thở ra, nâng gối trái sang bên trái cho tới khi  nào chân trái song song với sàn là được. Giữ ở vị trí đó 1s.\n
+        Từ từ hạ xuống vị trí ban đầu, kết hợp hít vào.\n
+        Thực hiện khoảng 10-12 lần thì đổi sang chân còn lại.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hglutterkickback">Giữ lưng duỗi thẳng, căng cứng cơ bụng và mắt nhìn về phía trước.\n
+        Nhấc gối chân phải lên cho tới khi nào đùi sau thẳng hàng với lưng, gối vẫn cong 90 độ.\n
+        Thở ra. Dừng lại và căng cứng cơ mông ở đỉnh động tác, sau đó từ từ hít vào và hạ chân xuống vị trí ban đầu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hinandout">Ngồi xuống đất.\n
+        Đặt tay của bạn cạnh mông để ổn định hơn.\n
+        Các bàn chân được với nhau.\n
+        Uốn cong chân một chút và nâng cao chúng lên một chút.\n
+        Ngả phần thân trên ra sau một chút.\n
+        Lưng luôn thẳng.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hdeclinepushup">Chống tay xuống sàn, 2 tay nằm dưới 2 vai, 2 chân đặt trên ghế hoặc 1 bục cao, thân người duỗi thẳng.\n
+        Hít vào, đồng thời hạ người xuống đến khi ngực sắp chạm sàn.\n
+        Đẩy người lên về vị trí ban đầu, siết cơ ngực đồng thời thở mạnh\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hinlinepushup">Chống 2 tay thẳng xuống cạnh ghế, bục gỗ cao, hai tay hơi rộng hơn vai.\n
+        Duỗi thẳng hai chân ra sau, hai tay thẳng vuông góc với thân người. Thân người tạo thành 1 đường thẳng.\n
+        Hít vào, khuỵu tay, hạ ngực xuống cạnh ghế.\n
+        Đẩy người thẳng lại vị trí ban đầu, thở mạnh ra.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hkneepushup">Quỳ hai gối xuống sàn, hai tay duỗi thẳng chống về phía trước, hai bàn tay ở phía dưới vai và hai cẳng chân bắt chéo về phía sau.\n
+        Giữ cho lưng thẳng, thân trên gồng cứng và đây là vị trí bắt đầu của bài tập Knee Push Ups.\n
+        Hít vào và bắt đầu uốn cong khuỷu tay để hạ thân người cho đến khi ngực gần chạm sàn.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="honelegpushup">Bắt đầu ở tư thế plank cao của bạn. Tay của bạn phải đặt trực tiếp dưới vai, hai chân cách nhau khoảng cách bằng hông.\n
+        Nhẹ nhàng nhấc một chân lên không trung, đảm bảo rằng bạn không mở hông ra.\n
+        Lý tưởng nhất là bạn muốn giữ cho vai và hông của mình vuông góc với mặt đất.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hpushup">Nằm xuống bằng bốn chân, đặt hai tay hơi rộng hơn vai.\n
+        Duỗi thẳng tay và chân.\n
+        Hạ thấp người cho đến khi ngực gần chạm sàn.\n
+        Tạm dừng, sau đó đẩy người lên trở lại.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="halternatingtochessstretch">Nằm ngửa, đầu gối cong và bàn chân đặt trên sàn.\n
+        Đưa một đầu gối lên ngực, giữ cho bàn chân còn lại nằm phẳng trên sàn.\n
+        Thư giãn và hạ thấp đầu gối về vị trí bắt đầu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hbirddog">Bắt đầu bằng cách trụ đầu gối và tay chống lên sàn.\n
+        Cánh tay nằm thẳng vuông góc với vai. Đầu gối nằm thẳng vuông góc với hông.\n
+        Gồng bụng bằng cách cố gắng đưa lồng ngực về phía rốn. Sau đó, bắt đầu nhấc 1 chân lên khỏi sàn song song với đất rồi thu về chỗ cũ.\n
+        Toàn bộ thời gian nhấc lên và hạ xuống nên kéo dài trong khoảng 6-8 giấy.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hburpees">Đứng thẳng, hạ người ngồi xổm xuống, chống tay xuống sàn.\n
+        Bật nhảy đưa chân về phía sau tạo tư thế hít đất.\n
+        Hít đất 1 lần.\n
+        Nhảy chân về giữa 2 tay.\n
+        Bật nhảy lên cao, nâng đùi lên, kéo cùi chỏ chạm gối.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hdumbbeljumpingsquat">Mỗi tay cầm một quả tạ và để chúng treo ở bên cạnh bạn.\n
+        Ngồi xổm xuống khoảng một phần tư quãng đường, rồi nhảy lên cao hết mức có thể.\n
+        Tiếp đất nhẹ nhàng trên đôi chân của bạn, và sau đó chuyển trực tiếp vào lần lặp lại tiếp theo.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hmjumpingjacks">Đứng thẳng, 2 chân khép, 2 tay đặt dọc thân người.\n
+        Bật nhảy lên cao, dang rộng 2 chân, 2 tay dang rộng hướng lên trên.\n
+        Bật nhảy và nâng cao 1 bên đùi lên song song với sàn, 2 tay đưa xuống chạm nhau ở dưới đùi.\n
+        Lặp lại tương tự cho bên kia.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hsidelunges">Bạn bắt đầu bài tập với tư thế Squat cơ bản và dang rộng 2 chân với khoảng cách vừa phải để giữ thăng bằng tốt nhất.\n
+        Duỗi dài chân phải ra bên, để mũi chân hướng thẳng hàng với đầu gối; chân trái giữ vững làm trụ và 2 tay để trước ngực.\n
+        Từ từ hạ hông xuống, hít vào và khi vị trí hông xuống thấp nhất thì bạn giữ 2-3 giây.\n
+        Thở ra và đưa cơ thể trở về vị trí ban đầu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hstepontochair">Đặt một chân đặt trên ghế sao cho phần bắp đùi và đầu gối vuông góc nhau, chân còn lại đứng thẳng trên mặt đất.\n
+        Dồn lực vào chân đặt trên ghế và chân còn lại dùng lực đứng lên ghế, đồng thời co chân làm trụ lên sao cho gối chạm vào phần ngực.\n
+        Hít vào khi nâng chân lên và thở ra khi quay về vị trí ban đầu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hrunonthewall">Đứng xa bức tường khoảng 1m, một chân đặt lên tường và một chân làm trụ.\n
+        Thực hiện động tác bằng cách lấy tay ở phần chân trên bức tường chạm vào mũi chân của phần chân trụ ở dưới.\n
+        Thực hiện 30 giây và đổi bên cho chân còn lại.
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hsitwall">Đứng dựa vào tường, tay duỗi thẳng, toàn thân ép sát vào tường.\n
+        Đưa chân về phía trước khoảng 0,5m, hai chân mở rộng tầm 20cm.\n
+        Từ từ hạ thấp trọng tâm, điều chỉnh tư thế sao cho đùi và chân tạo thành góc vuông.\n
+        Giữ tư thế trong vòng 20-30 giây. Khi đã tập quen, bạn có thể nâng cao lên mức 60 giây.\n
+        Đứng thẳng người trở về tư thế ban đầu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hlongarmcrunch">Nằm phẳng trên mặt đất, tay thẳng phía sau đầu và chân duỗi thẳng.\n
+        Đây là vị trí bắt đầu của bài tập.\n
+        Trong khi thở ra, co eo đồng thời nâng chân và tay để tạo hình chữ V.\n
+        Hít vào, hạ tay và chân về vị trí bắt đầu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hstraightarmplank">Hạ người, đưa hai bàn tay chống xuống sàn, rồi gập khuỷu tay, hai tay mở rộng bằng vai, 2 củ chỏ nằm dưới 2 vai theo phương thẳng đứng.\n
+        Hai mũi chân của bạn lúc này chống lên sàn, giữ hai chân thẳng, thoải mái.\n
+        Siết chặt cơ bụng cùng hông và mông rồi thở đều để bạn thực hiện tư thế được lâu.\n
+        Lặp lại 12 lần, 4 hiệp.
+    </string>
+    <string name="hpushupandrotation">Vào chuẩn bị tự thế như hít đất cơ bản.\n
+        Hít xuống nhưng khi đẩy lên. Một tay giữ thăng bằng, nâng người và đưa tay còn lại hướng lên trần nhà.\n
+        Hạ tay xuống và làm với hướng ngược lại.\n
+        Nào các bạn cùng thử thách bản thân mùa tết với bài tập hít đất xoay chiều nào.
+        Lặp lại 12 lần, 4 hiệp.
     </string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

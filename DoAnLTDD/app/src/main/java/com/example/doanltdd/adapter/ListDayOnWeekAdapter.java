@@ -122,27 +122,27 @@ public class ListDayOnWeekAdapter extends BaseExpandableListAdapter {
                     if (childPosition == 0)
                     {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 2 - Ngày 1");
+                        intent.putExtra("name", "Cơ Bản - Tuần 2 - Ngày 1");
                         context.startActivity(intent);
                     }
                     if (childPosition == 1) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 2 - Ngày 2");
+                        intent.putExtra("name", "Cơ Bản - Tuần 2 - Ngày 2");
                         context.startActivity(intent);
                     }
                     if (childPosition == 2) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 2 - Ngày 3");
+                        intent.putExtra("name", "Cơ Bản - Tuần 2 - Ngày 3");
                         context.startActivity(intent);
                     }
                     if (childPosition == 3) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 2 - Ngày 4");
+                        intent.putExtra("name", "Cơ Bản - Tuần 2 - Ngày 4");
                         context.startActivity(intent);
                     }
                     if (childPosition == 4) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 1 - Ngày 5");
+                        intent.putExtra("name", "Cơ Bản - Tuần 1 - Ngày 5");
                         context.startActivity(intent);
                     }
                 }
@@ -150,27 +150,27 @@ public class ListDayOnWeekAdapter extends BaseExpandableListAdapter {
                     if (childPosition == 0)
                     {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 3 - Ngày 1");
+                        intent.putExtra("name", "Cơ Bản - Tuần 3 - Ngày 1");
                         context.startActivity(intent);
                     }
                     if (childPosition == 1) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 3 - Ngày 2");
+                        intent.putExtra("name", "Cơ Bản - Tuần 3 - Ngày 2");
                         context.startActivity(intent);
                     }
                     if (childPosition == 2) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 3 - Ngày 3");
+                        intent.putExtra("name", "Cơ Bản - Tuần 3 - Ngày 3");
                         context.startActivity(intent);
                     }
                     if (childPosition == 3) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 3 - Ngày 4");
+                        intent.putExtra("name", "Cơ Bản - Tuần 3 - Ngày 4");
                         context.startActivity(intent);
                     }
                     if (childPosition == 4) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 3 - Ngày 5");
+                        intent.putExtra("name", "Cơ Bản - Tuần 3 - Ngày 5");
                         context.startActivity(intent);
                     }
                 }
@@ -178,27 +178,27 @@ public class ListDayOnWeekAdapter extends BaseExpandableListAdapter {
                     if (childPosition == 0)
                     {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 4 - Ngày 1");
+                        intent.putExtra("name", "Cơ Bản - Tuần 4 - Ngày 1");
                         context.startActivity(intent);
                     }
                     if (childPosition == 1) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 4 - Ngày 2");
+                        intent.putExtra("name", "Cơ Bản - Tuần 4 - Ngày 2");
                         context.startActivity(intent);
                     }
                     if (childPosition == 2) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 4 - Ngày 3");
+                        intent.putExtra("name", "Cơ Bản - Tuần 4 - Ngày 3");
                         context.startActivity(intent);
                     }
                     if (childPosition == 3) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 4 - Ngày 4");
+                        intent.putExtra("name", "Cơ Bản - Tuần 4 - Ngày 4");
                         context.startActivity(intent);
                     }
                     if (childPosition == 4) {
                         Intent intent = new Intent(context.getApplicationContext(), MyList.class);
-                        intent.putExtra("name", "Tuần 4 - Ngày 5");
+                        intent.putExtra("name", "Cơ Bản - Tuần 4 - Ngày 5");
                         context.startActivity(intent);
                     }
                 }

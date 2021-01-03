@@ -97,8 +97,8 @@ public class WeekTwoDayFourFragment extends Fragment {
                 }
                 if (position == 1) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Kéo Cánh Tay");
-                    intent.putExtra("noidung", getString(R.string.armcissors));
+                    intent.putExtra("name", "Căng Vai");
+                    intent.putExtra("noidung", getString(R.string.shoulderstretch));
                     startActivity(intent);
                 }
                 if (position == 2) {
@@ -109,8 +109,8 @@ public class WeekTwoDayFourFragment extends Fragment {
                 }
                 if (position == 3) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Hít Đất Xuống Dốc");
-                    intent.putExtra("noidung", getString(R.string.declinepushup));
+                    intent.putExtra("name", "Hít Đất Một Chân Trụ");
+                    intent.putExtra("noidung", getString(R.string.onelegpushup));
                     startActivity(intent);
                 }
                 if (position == 4) {
@@ -121,8 +121,8 @@ public class WeekTwoDayFourFragment extends Fragment {
                 }
                 if (position == 5) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Chùng Chân Sang Ngang");
-                    intent.putExtra("noidung", getString(R.string.sidelunges));
+                    intent.putExtra("name", "Ngồi Dựa Tường");
+                    intent.putExtra("noidung", getString(R.string.sitwall));
                     startActivity(intent);
                 }
                 if (position == 6) {
@@ -138,15 +138,15 @@ public class WeekTwoDayFourFragment extends Fragment {
         ArrayList<Contact> tmp = new ArrayList<>();
         tmp.add(new Contact(getString(R.string.tittlebicyclecrunch),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"abs.png")));
-        tmp.add(new Contact(getString(R.string.tittlearmcissors),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.tittleshoulderstrech),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"arm.png")));
         tmp.add(new Contact(getString(R.string.tittlebuttbrigde),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"butt.png")));
-        tmp.add(new Contact(getString(R.string.titledeclinepushup),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.titleonelegpushup),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"chest.png")));
         tmp.add(new Contact(getString(R.string.titlebirddog),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"fullbody.png")));
-        tmp.add(new Contact(getString(R.string.titlesidelunges),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.titlewallsit),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"legs.png")));
         tmp.add(new Contact(getString(R.string.titlepushupandrotation),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"back.png")));

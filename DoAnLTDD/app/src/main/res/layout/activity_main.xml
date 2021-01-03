@@ -23,7 +23,7 @@
                 android:id="@+id/toolbar"
                 android:gravity="top"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="100dp"
                 android:background="#00ABEE"
                 app:title="@string/title">
 
@@ -39,8 +39,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="10dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textStyle="bold"
+                        android:fontFamily="@string/font_family_medium"
                         android:text="Thử thách"
                         />
                     <androidx.recyclerview.widget.RecyclerView
@@ -52,8 +55,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="10dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textStyle="bold"
+                        android:fontFamily="@string/font_family_medium"
                         android:text="Các nhóm cơ"
                         />
                     <androidx.recyclerview.widget.RecyclerView
@@ -66,8 +72,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="10dp"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textStyle="bold"
+                        android:fontFamily="@string/font_family_medium"
                         android:text="Thường ngày"
                         />
                     <androidx.recyclerview.widget.RecyclerView

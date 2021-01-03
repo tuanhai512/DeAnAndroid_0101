@@ -1,9 +1,9 @@
 package com.example.doanltdd.controller;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -32,24 +32,17 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    ListView listView;
-   // ListDataAdapter listDataAdapter;
-    RecyclerView rvData,rvData1,rvData2,rvData3;
-  // ExerciseAdapter exerciseAdapter;
-   // MyAdapter myAdapter;
-   // ArrayList<Contact> arrayList;
+    RecyclerView rvData1,rvData2,rvData3;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        rvData = findViewById(R.id.rcv_Data);
+
         rvData1 = findViewById(R.id.rcv_item);
         rvData2 = findViewById(R.id.rcv_item1);
         rvData3 = findViewById(R.id.rcv_item2);
-
-     //   listDataAdapter = new ListDataAdapter();
 
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.navView);
@@ -65,17 +58,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Cài đặt", Toast.LENGTH_SHORT).show();
                     drawerLayout.closeDrawer(GravityCompat.START);
                 }
-
-
+                else if (item.getItemId() == R.id.tips) {
+                    Intent intent = new Intent(MainActivity.this,Tips.class);
+                    startActivity(intent);
+                }
                 return false;
             }
         });
 
         acctionToolBar();
-
-
-        //LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-       // rvData.setLayoutManager(linearLayoutManager);
 
         ExerciseAdapter exerciseAdapter = new ExerciseAdapter();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
@@ -101,9 +92,6 @@ public class MainActivity extends AppCompatActivity {
         exerciseMediumAdapter.setData(getlistExcerciseMedium());
         rvData3.setAdapter(exerciseMediumAdapter);
 
-//        listView = findViewById(R.id.listView);
-
-//        rvData.setAdapter(listDataAdapter);
 
     }
 
@@ -119,12 +107,11 @@ public class MainActivity extends AppCompatActivity {
 
         return exerciseList;
     }
-
     private List<Exercise> getlistExcercise() {
         List<Exercise> exerciseList1 = new ArrayList<>();
         exerciseList1.add(new Exercise(R.drawable.body2,"Cơ bản"));
         exerciseList1.add(new Exercise(R.drawable.body3,"Trung bình"));
-        exerciseList1.add(new Exercise(R.drawable.body2,"Nâng cao"));
+        exerciseList1.add(new Exercise(R.drawable.buttbackground,"Nâng cao"));
 
 
         return exerciseList1;
@@ -132,15 +119,12 @@ public class MainActivity extends AppCompatActivity {
     }
     private List<ExerciseMedium> getlistExcerciseMedium() {
         List<ExerciseMedium> exerciseList2 = new ArrayList<>();
-        exerciseList2.add(new ExerciseMedium(R.drawable.body2,"Tay trước - Tay sau "));
-        exerciseList2.add(new ExerciseMedium(R.drawable.body3,"Ngực - lưng "));
-        exerciseList2.add(new ExerciseMedium(R.drawable.body2,"Vai - Xô"));
-        exerciseList2.add(new ExerciseMedium(R.drawable.body2,"Chân trước - Chân sau"));
+        exerciseList2.add(new ExerciseMedium(R.drawable.mixbackgroundone,"BỤNG - TAY - LƯNG"));
+        exerciseList2.add(new ExerciseMedium(R.drawable.mixbackgroundtwo,"MÔNG - NGỰC"));
+        exerciseList2.add(new ExerciseMedium(R.drawable.mixbackgroundthree,"TOÀN THÂN - CHÂN"));
         return exerciseList2;
 
     }
-
-
 
     private void acctionToolBar() {
         setSupportActionBar(toolbar);

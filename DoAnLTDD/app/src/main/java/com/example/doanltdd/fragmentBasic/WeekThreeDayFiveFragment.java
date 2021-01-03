@@ -91,8 +91,8 @@ public class WeekThreeDayFiveFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Gập Bụng Đạp Xe");
-                    intent.putExtra("noidung", getString(R.string.bicyclecrunch));
+                    intent.putExtra("name", "Đá Bay");
+                    intent.putExtra("noidung", getString(R.string.flutterkick));
                     startActivity(intent);
                 }
                 if (position == 1) {
@@ -103,8 +103,8 @@ public class WeekThreeDayFiveFragment extends Fragment {
                 }
                 if (position == 2) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Nhấc Mông Thế Cây Cầu");
-                    intent.putExtra("noidung", getString(R.string.buttbrigde));
+                    intent.putExtra("name", "Đá Mông Ngược");
+                    intent.putExtra("noidung", getString(R.string.glutterkickback));
                     startActivity(intent);
                 }
                 if (position == 3) {
@@ -115,8 +115,8 @@ public class WeekThreeDayFiveFragment extends Fragment {
                 }
                 if (position == 4) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Bird Dog");
-                    intent.putExtra("noidung", getString(R.string.birddog));
+                    intent.putExtra("name", "Tạ Đơn Nhảy Squat");
+                    intent.putExtra("noidung", getString(R.string.dumbbeljumpingsquat));
                     startActivity(intent);
                 }
                 if (position == 5) {
@@ -127,8 +127,8 @@ public class WeekThreeDayFiveFragment extends Fragment {
                 }
                 if (position == 6) {
                     Intent intent = new Intent(view.getContext(), Detail.class);
-                    intent.putExtra("name", "Hít Đất Xoay Chiều");
-                    intent.putExtra("noidung", getString(R.string.pushup));
+                    intent.putExtra("name", "Plank Thẳng Tay");
+                    intent.putExtra("noidung", getString(R.string.straightarmplank));
                     startActivity(intent);
                 }
             }
@@ -136,19 +136,19 @@ public class WeekThreeDayFiveFragment extends Fragment {
     }
     public ArrayList<Contact> getMockData(){
         ArrayList<Contact> tmp = new ArrayList<>();
-        tmp.add(new Contact(getString(R.string.tittlebicyclecrunch),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.tittleflutterkick),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"abs.png")));
         tmp.add(new Contact(getString(R.string.tittlearmcissors),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"arm.png")));
-        tmp.add(new Contact(getString(R.string.tittlebuttbrigde),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.tittleglutterkickback),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"butt.png")));
         tmp.add(new Contact(getString(R.string.titledeclinepushup),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"chest.png")));
-        tmp.add(new Contact(getString(R.string.titlebirddog),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.titledumbbeljumpingsquat),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"fullbody.png")));
         tmp.add(new Contact(getString(R.string.titlesidelunges),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"legs.png")));
-        tmp.add(new Contact(getString(R.string.titlepushupandrotation),Contact.convertStringToBitmapFromAccess(getContext()
+        tmp.add(new Contact(getString(R.string.titlewallpushup),Contact.convertStringToBitmapFromAccess(getContext()
                 ,"back.png")));
 
 

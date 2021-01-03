@@ -17,6 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.doanltdd.R;
 import com.example.doanltdd.controller.ListDayOnWeek;
+import com.example.doanltdd.controller.ListDayOnWeek1;
+import com.example.doanltdd.controller.ListDayOnWeek2;
 import com.example.doanltdd.model.Exercise;
 
 import java.util.List;
@@ -60,6 +62,16 @@ public class ExerciseAdapter extends RecyclerView.Adapter<ExerciseAdapter.Exerci
                 if (position == 0) {
                     Intent intent = new Intent(holder.itemView.getContext(), ListDayOnWeek.class);
                     intent.putExtra("name","CƠ BẢN");
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                if (position == 1) {
+                    Intent intent = new Intent(holder.itemView.getContext(), ListDayOnWeek1.class);
+                    intent.putExtra("name","TRUNG BÌNH");
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                if (position == 2) {
+                    Intent intent = new Intent(holder.itemView.getContext(), ListDayOnWeek2.class);
+                    intent.putExtra("name","NÂNG CAO");
                     holder.itemView.getContext().startActivity(intent);
                 }
             }

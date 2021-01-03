@@ -25,25 +25,29 @@ public class ListDayOnWeek extends AppCompatActivity {
     ExpandableListView expandableListView;
     List<String> listGroup;
     HashMap<String,List<String>> listItem;
-    ListDayOnWeekAdapter adapter;
+    ListDayOnWeekAdapter listDayOnWeekAdapter;
     NavigationView navigationView, navigationView2;
     Toolbar toolbar;
     DrawerLayout drawerLayout;
     Bundle bundle;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_day_on_week);
 
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+      //  getSupportActionBar().setHomeButtonEnabled(true);
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.navView);
         toolbar = findViewById(R.id.toolbar);
         expandableListView = findViewById(R.id.expandable_listview);
         listGroup = new ArrayList<>();
         listItem = new HashMap<>();
-        adapter = new ListDayOnWeekAdapter(this,listGroup,listItem);
-        expandableListView.setAdapter(adapter);
+        listDayOnWeekAdapter = new ListDayOnWeekAdapter(this,listGroup,listItem);
+        expandableListView.setAdapter(listDayOnWeekAdapter);
         initListData();
         bundle = getIntent().getExtras();
         if (bundle != null) {
@@ -83,8 +87,6 @@ public class ListDayOnWeek extends AppCompatActivity {
         if (name.equals("CƠ BẢN")) {
             toolbar.setTitle(name);
             toolbar.setBackground(getDrawable(R.drawable.body2));
-
-
         }
     }
 
@@ -123,7 +125,7 @@ public class ListDayOnWeek extends AppCompatActivity {
         listItem.put(listGroup.get(1),list2);
         listItem.put(listGroup.get(2),list3);
         listItem.put(listGroup.get(3),list4);
-        adapter.notifyDataSetChanged();
+        listDayOnWeekAdapter.notifyDataSetChanged();
     }
 
 }

@@ -30,6 +30,7 @@ public class Detail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+       // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         itemclick2_name = (TextView) findViewById(R.id.itemclick2_name);
         itemclick2_noidung = (TextView) findViewById(R.id.itemclick2_noidung);
         itemclick2_imgView = (ImageView) findViewById(R.id.itemclick2_imgview);

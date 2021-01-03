@@ -14,9 +14,21 @@
         <activity android:name=".controller.Test"></activity>
         <activity android:name=".controller.Tips"></activity>
         <activity android:name=".controller.Loading" />
-        <activity android:name=".controller.ListDayOnWeek" />
-        <activity android:name=".controller.Detail" />
-        <activity android:name=".controller.MyList" />
+        <activity android:name=".controller.ListDayOnWeek"
+            android:parentActivityName=".controller.MainActivity"
+            ></activity>
+        <activity android:name=".controller.ListDayOnWeek1"
+            android:parentActivityName=".controller.MainActivity">
+
+        </activity>
+        <activity android:name=".controller.ListDayOnWeek2"
+            android:parentActivityName=".controller.MainActivity">
+
+        </activity>
+        <activity android:name=".controller.Detail"
+            android:parentActivityName=".controller.MainActivity"/>
+        <activity android:name=".controller.MyList"
+            android:parentActivityName=".controller.MainActivity"/>
         <activity android:name=".controller.MainAlarm" />
         <activity android:name=".controller.MainActivity">
             <intent-filter>

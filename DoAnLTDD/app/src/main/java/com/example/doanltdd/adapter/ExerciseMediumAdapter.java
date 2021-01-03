@@ -1,6 +1,7 @@
 package com.example.doanltdd.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -15,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.doanltdd.R;
+import com.example.doanltdd.controller.MyList;
 import com.example.doanltdd.model.ExerciseMedium;
 
 import java.util.List;
@@ -55,8 +57,23 @@ public class ExerciseMediumAdapter extends RecyclerView.Adapter<ExerciseMediumAd
         holder.itemView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
+                if(position==0) {
+                    Intent intent = new Intent(holder.itemView.getContext(), MyList.class);
+                    intent.putExtra("name","BỤNG - TAY - LƯNG");
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                if(position==1)
+                {
+                    Intent intent = new Intent(holder.itemView.getContext(), MyList.class);
+                    intent.putExtra("name", "MÔNG - NGỰC");
+                    holder.itemView.getContext().startActivity(intent);
+                }
+                if(position==2)
+                {
+                    Intent intent = new Intent(holder.itemView.getContext(), MyList.class);
+                    intent.putExtra("name", "TOÀN THÂN - CHÂN");
+                    holder.itemView.getContext().startActivity(intent);
+                }
 
             }
 

@@ -10,9 +10,10 @@
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/itemclick2_imgview"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/brigde"
-        android:background="@color/cardview_dark_background"/>
+        android:layout_height="300dp"
+        android:background="@color/cardview_dark_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/brigde" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
